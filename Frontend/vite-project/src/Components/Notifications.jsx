@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { useNotifications } from '../context/notificationContext';
-import { formatTimestamp, getNotificationIcon } from '../utils/helpers';
+import { formatTimestamp, getNotificationIcon } from '../Utils/helper';
 
 const NotificationContainer = styled.div`
   max-height: 500px;
