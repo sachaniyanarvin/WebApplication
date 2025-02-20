@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import QRCode from 'qrcode.react';
+import QRCode from "qrcode.react";
 import { useAuth } from '../context/authContext';
 import { api } from '../utils/api';
-import { generateSessionId } from '../utils/helpers';
+import { generateSessionId } from '../Utils/helper';
 
 const QRCodeContainer = styled.div`
   display: flex;
