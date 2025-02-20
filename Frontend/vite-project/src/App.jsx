@@ -4,7 +4,7 @@ import { useAuth } from './context/authContext';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
-import Settings from './pages/Settings';
+import Settings from './Pages/Setting';
 
 function App() {
   const { isAuthenticated, loading } = useAuth();
